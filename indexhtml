@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <h2>Seleccione una categoría</h2>
+
+            <select id="categoria">
+                <option value="Todas">Todas</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Appetizer">Appetizer</option>
+                <option value="Dessert">Dessert</option>
+            </select>
+        </div>
+
+        <div id="recetas" class="recetas">
+            <!-- Las tarjetas se crean desde JavaScript -->
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
